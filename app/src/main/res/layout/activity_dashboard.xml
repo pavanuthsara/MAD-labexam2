@@ -12,10 +12,10 @@
         android:layout_height="0dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0">
+        app:layout_constraintVertical_bias="0.0">
 
     </FrameLayout>
 
@@ -25,6 +25,11 @@
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="651dp" />
+        tools:layout_editor_absoluteY="651dp"
+        app:menu="@menu/bottom_nav_menu"
+        android:padding="10dp"
+        android:background="@color/background_dark"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
