@@ -23,6 +23,7 @@
         </activity>
 
         <activity android:name=".DashboardActivity"/>
+        <activity android:name=".CheckActivity"/>
     </application>
 
 </manifest>
