@@ -6,4 +6,10 @@
     <string name="psychologists">Psychologists</string>
     <string name="psychologists_tagline1">Find Your Trusted Psychologist</string>
     <string name="psychologist_tagline2">Connect with licensed professionals who understand your needs. Start your healing journey today</string>
+
+    <!-- Doctor 1 details   -->
+    <string name="doctor1_name">Dr. Kalani Rathnayake</string>
+    <string name="doctor1_description">Anxiety, Depression, Trauma</string>
+    <string name="doctor1_rating">⭐ 5.0 (32 reviews)</string>
+
 </resources>
