@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">MAD-labexam2</string>
     <string name="user_dashboard">User Dashboard</string>
+    <string name="find_psychologists">Find Psychologists</string>
+    <string name="my_bookings">My Bookings</string>
+    <string name="my_profile">My Profile</string>
 
 </resources>
