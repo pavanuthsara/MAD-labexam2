@@ -3,4 +3,7 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="background">#D7F3FD</color>
+
+    <!-- psychologist list page   -->
+    <color name="book_button">#A1E3F9</color>
 </resources>
