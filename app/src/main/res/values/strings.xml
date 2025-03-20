@@ -2,4 +2,8 @@
     <string name="app_name">MAD-labexam2</string>
     <string name="user_dashboard">User Dashboard</string>
 
+    <!-- Psychologist page   -->
+    <string name="psychologists">Psychologists</string>
+    <string name="psychologists_tagline1">Find Your Trusted Psychologist</string>
+    <string name="psychologist_tagline2">Connect with licensed professionals who understand your needs. Start your healing journey today</string>
 </resources>
