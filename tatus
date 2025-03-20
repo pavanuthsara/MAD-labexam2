@@ -1,0 +1,65 @@
+[33mcommit a68645f587019c56cc9d9e6833a64a0ca31f9c46[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-dashboard4[m[33m, [m[1;31morigin/feature-dashboard4[m[33m)[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 20 10:53:52 2025 +0530
+
+    add 3 buttons to dashbaord
+
+[33mcommit 3aaf236fa9afb7aa4fe06653c3a13c7f606606b6[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature-dashboard3[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeature-dashboard3[m[33m)[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 17:57:49 2025 +0530
+
+    user dashboard v1.5.2 - round the corners
+
+[33mcommit cae81d72ea60901e3c1105257278d6ac20029731[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 17:19:21 2025 +0530
+
+    user dashboard v1.5.1 - add imageview with intent
+
+[33mcommit 8f4d81d4b16b47bf4071ed8f3846b3b90d69c95c[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 16:08:12 2025 +0530
+
+    user dashboard v1.5 - add intent from main
+
+[33mcommit b0d6d614cae6ceef51309c1931b5af3f4e0f005c[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 15:28:07 2025 +0530
+
+    user dashboard v1.4 updated font family to sans serif
+
+[33mcommit e93e75ca94b42c243d8fa08307a8954fe4d3409c[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 15:25:42 2025 +0530
+
+    user dashboard v1.3
+
+[33mcommit cbe992d5e846a5aa45be41a66837016225e21069[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 15:14:43 2025 +0530
+
+    user dashboard v1.2
+
+[33mcommit f6ed262dea5decbfd88fa2dd41f2752641e7e841[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 10:43:43 2025 +0530
+
+    colors.xml and string.xml v1.0
+
+[33mcommit 88b352125bf5f02161b97becd3f03abdafc848d0[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Thu Mar 13 10:41:56 2025 +0530
+
+    Initialize activity_dashboard.xml
+
+[33mcommit 87e8ac77ff496d80a7847ee050e76f1af55039be[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Wed Mar 12 19:38:18 2025 +0530
+
+    App v1.0
+
+[33mcommit 72e19bce448b521b79983ce28ded9c37dc179714[m
+Author: Pavan Uthsara <uthsarapavan@gmail.com>
+Date:   Wed Mar 12 19:33:04 2025 +0530
+
+    Initial commit

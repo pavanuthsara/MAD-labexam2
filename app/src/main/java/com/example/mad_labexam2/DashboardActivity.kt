@@ -11,10 +11,6 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        val checkButton1 : ImageView = findViewById(R.id.imageView1)
-        checkButton1.setOnClickListener{
-            val intent = Intent(this, CheckActivity::class.java)
-            startActivity(intent)
-        }
+
     }
 }
