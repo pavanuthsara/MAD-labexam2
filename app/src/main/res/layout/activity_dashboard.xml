@@ -25,8 +25,8 @@
 
     <ImageView
         android:id="@+id/findPsychologists"
-        android:layout_width="450px"
-        android:layout_height="450px"
+        android:layout_width="182dp"
+        android:layout_height="150dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/round_image"
@@ -37,8 +37,8 @@
 
     <ImageView
         android:id="@+id/myBookings"
-        android:layout_width="450px"
-        android:layout_height="450px"
+        android:layout_width="142dp"
+        android:layout_height="170dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="24dp"
         android:layout_marginEnd="24dp"
@@ -53,12 +53,14 @@
 
     <ImageView
         android:id="@+id/myProfile"
-        android:layout_width="450px"
-        android:layout_height="450px"
+        android:layout_width="151dp"
+        android:layout_height="134dp"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="20dp"
         android:background="@drawable/round_image"
         android:clipToOutline="true"
+        app:layout_constraintEnd_toStartOf="@+id/myBookings"
+        app:layout_constraintHorizontal_bias="0.114"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/findPsychologists"
         tools:srcCompat="@drawable/my_profile" />
