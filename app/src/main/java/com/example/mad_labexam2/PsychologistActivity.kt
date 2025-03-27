@@ -16,5 +16,11 @@ class PsychologistActivity : AppCompatActivity() {
             val intent = Intent(this, BookPsychologist::class.java)
             startActivity(intent)
         }
+
+        val navBarBookingsbtn : Button = findViewById(R.id.button9)
+        navBarBookingsbtn.setOnClickListener{
+            val intent = Intent(this, UserBookingsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }

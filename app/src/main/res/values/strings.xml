@@ -13,7 +13,7 @@
     <string name="doctor1_description">Anxiety, Depression, Trauma</string>
     <string name="doctor1_rating">⭐ 5.0 (32 reviews)</string>
 
-    <!--Book Psychologist .xlm-->
+    <!--Book Psychologist .xml-->
     <string name="book_title">Book a psychologist</string>
     <string name="book_selectTimeSlot">Select available time slot</string>
     <string-array name="book_timeslot">
@@ -35,6 +35,22 @@
 
     <string name="book_submitbtn">Submit</string>
     <string name="book_cancelbtn">Cancel</string>
-    <!-- END Book Psychologist .xlm-->
+    <!-- END Book Psychologist .xml-->
+
+    <!--user bookings .xml-->
+    <string name="userbookings_title">Your bookings</string>
+    <string name="userbookings_current">Current bookings</string>
+    <string name="userbookings_previous">Previous bookings</string>
+
+    <string name="userbookings_b1_dname">Dr.Pavan Uthsara</string>
+    <string name="userbookings_b1_date">29th March 2025 | 8.00AM - 9.00AM</string>
+    <string name="userbookings_b1_tagline">Please entering meeting before 5 minutes.</string>
+    <string name="userbookings_b1_joinbtn">Join</string>
+
+    <string name="userbookings_b2_dname">Dr.Ransilu Samaraweera</string>
+    <string name="userbookings_b2_date">25th March 2025 | 8.00AM - 9.00AM</string>
+    <string name="userbookings_b2_tagline">Meeting ended. Put a review.</string>
+    <string name="userbookings_b2_addreviewbtn">Add review</string>
+    <!--END user bookings .xml-->
 
 </resources>
