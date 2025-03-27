@@ -13,4 +13,8 @@
     <string name="doctor1_description">Anxiety, Depression, Trauma</string>
     <string name="doctor1_rating">⭐ 5.0 (32 reviews)</string>
 
+    <!--Book Psychologist .xlm-->
+    <string name="book_title">Book a psychologist</string>
+    <string name="book_selectTimeSlot">Select available time slot</string>
+
 </resources>
