@@ -17,18 +17,24 @@
     <string name="book_title">Book a psychologist</string>
     <string name="book_selectTimeSlot">Select available time slot</string>
     <string-array name="book_timeslot">
-        <item></item>
+        <item>Select suitable date and time</item>
         <item>27 March : 8.00AM - 9.00AM</item>
         <item>27 March : 3.00PM - 4.00PM</item>
         <item>29 March : 9.00AM - 10.00AM</item>
         <item>30 March : 6.00PM - 9.00AM</item>
     </string-array>
+    <string name="book_totalPrice">Total price : 3500 LKR</string>
+    <string name="book_paymentMethod">Select payment method</string>
     <string-array name="book_paymentMethod">
-        <item></item>
+        <item>Select payment method</item>
         <item>Debit card / Credit card</item>
         <item>Google Pay</item>
         <item>Apple Pay</item>
-
     </string-array>
+    <string name="book_doctor_detials">Psychologist details</string>
+
+    <string name="book_submitbtn">Submit</string>
+    <string name="book_cancelbtn">Cancel</string>
+    <!-- END Book Psychologist .xlm-->
 
 </resources>

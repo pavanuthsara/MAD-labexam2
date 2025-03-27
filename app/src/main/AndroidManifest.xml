@@ -25,6 +25,7 @@
         <activity android:name=".DashboardActivity"/>
         <activity android:name=".CheckActivity"/>
         <activity android:name=".PsychologistActivity"/>
+        <activity android:name=".BookPsychologist"/>
     </application>
 
 </manifest>
