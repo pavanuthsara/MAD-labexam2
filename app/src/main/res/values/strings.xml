@@ -16,5 +16,19 @@
     <!--Book Psychologist .xlm-->
     <string name="book_title">Book a psychologist</string>
     <string name="book_selectTimeSlot">Select available time slot</string>
+    <string-array name="book_timeslot">
+        <item></item>
+        <item>27 March : 8.00AM - 9.00AM</item>
+        <item>27 March : 3.00PM - 4.00PM</item>
+        <item>29 March : 9.00AM - 10.00AM</item>
+        <item>30 March : 6.00PM - 9.00AM</item>
+    </string-array>
+    <string-array name="book_paymentMethod">
+        <item></item>
+        <item>Debit card / Credit card</item>
+        <item>Google Pay</item>
+        <item>Apple Pay</item>
+
+    </string-array>
 
 </resources>
