@@ -10,6 +10,11 @@ class AddReviewActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_addreview)
 
+        val ratingSubmitbtn : Button = findViewById(R.id.button25)
+        ratingSubmitbtn.setOnClickListener{
+            val intent = Intent(this, ReviewSuccessActivity::class.java)
+            startActivity(intent)
+        }
 
         val ratingCancelbtn : Button = findViewById(R.id.button26)
         ratingCancelbtn.setOnClickListener{

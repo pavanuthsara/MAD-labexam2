@@ -33,6 +33,7 @@
         <activity android:name=".SignUpActivity"/>
         <activity android:name=".EditProfileActivity"/>
         <activity android:name=".AddReviewActivity"/>
+        <activity android:name=".ReviewSuccessActivity"/>
     </application>
 
 </manifest>

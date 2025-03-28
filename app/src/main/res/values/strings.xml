@@ -107,6 +107,10 @@
     <string name="review_write">Write your review</string>
     <string name="review_rating">Give rating below</string>
     <string name="review_submit">Submit review</string>
+
+    <string name="review_success_title">Success!</string>
+    <string name="review_success_tag">Review added successfully!</string>
+    <string name="review_success_backtobookings">Back to your bookings</string>
     <!-- END add review .xml-->
 
 </resources>
