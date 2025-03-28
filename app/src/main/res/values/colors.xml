@@ -4,6 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#eaf9fe</color>
     <color name="yellow">#FF9500</color>
+    <color name="background_landing">#BDEBFB</color>
 
     <!-- psychologist list page   -->
     <color name="book_button">#A1E3F9</color>
@@ -13,4 +14,7 @@
     <color name="spinner_background">#9acafe</color>
     <color name="submit_btn">#037bfc</color>
     <color name="cancel_btn">#ef6965</color>
+
+    <!--bookings success page-->
+    <color name="success_submit">#50C878</color>
 </resources>

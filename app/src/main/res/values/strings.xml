@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MAD-labexam2</string>
     <string name="user_dashboard">User Dashboard</string>
+    <string name="landing_getstarted">Get Started</string>
 
     <!-- Psychologist page   -->
     <string name="psychologists">Psychologists</string>
@@ -66,5 +67,12 @@
     <string name="userbookings_b2_tagline">Meeting ended. Put a review.</string>
     <string name="userbookings_b2_addreviewbtn">Add review</string>
     <!--END user bookings .xml-->
+
+    <!-- -->
+    <!-- booking success .xml -->
+    <string name="booking_success">Booking Success</string>
+    <string name="booking_success_payment">Payment was done,Thank you!</string>
+    <string name="booking_success_view">View Your Bookings</string>
+    <!-- END booking success .xml -->
 
 </resources>
