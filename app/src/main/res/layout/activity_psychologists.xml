@@ -150,7 +150,7 @@
             android:layout_width="139dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/submit_btn"
+            android:backgroundTint="@color/logout_btn_color"
             android:text="My bookings" />
 
         <Button
@@ -158,7 +158,7 @@
             android:layout_width="146dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTint="@color/submit_btn"
+            android:backgroundTint="@color/logout_btn_color"
             android:text="Profile" />
 
     </LinearLayout>

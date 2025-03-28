@@ -75,4 +75,13 @@
     <string name="booking_success_view">View Your Bookings</string>
     <!-- END booking success .xml -->
 
+    <!-- booking profile .xml -->
+    <string name="profile_title">Your Profile</string>
+    <string name="profile_name">Pavan Uthsara</string>
+    <string name="profile_details">21 Yerars old : Male</string>
+    <string name="profile_memberType">Silver Member</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_logout">Log out</string>
+    <!-- END booking success .xml -->
+
 </resources>

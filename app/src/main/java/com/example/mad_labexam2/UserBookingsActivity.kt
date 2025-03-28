@@ -21,5 +21,6 @@ class UserBookingsActivity : AppCompatActivity() {
             val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
+
     }
 }

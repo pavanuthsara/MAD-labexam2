@@ -4,7 +4,10 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background">#eaf9fe</color>
     <color name="yellow">#FF9500</color>
+    <color name="yellow_fade">#FFD08D</color>
     <color name="background_landing">#BDEBFB</color>
+
+     <color name="logout_btn_color">#7BBAFF</color>
 
     <!-- psychologist list page   -->
     <color name="book_button">#A1E3F9</color>
