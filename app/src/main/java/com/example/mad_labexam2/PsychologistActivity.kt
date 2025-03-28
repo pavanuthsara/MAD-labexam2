@@ -11,15 +11,20 @@ class PsychologistActivity : AppCompatActivity() {
         setContentView(R.layout.activity_psychologists)
 
         val doctor1bookbtn: Button = findViewById(R.id.doctor1_book_btn)
-
         doctor1bookbtn.setOnClickListener{
-            val intent = Intent(this, BookPsychologist::class.java)
+            val intent = Intent(this, BookPsychologistActivity::class.java)
             startActivity(intent)
         }
 
         val navBarBookingsbtn : Button = findViewById(R.id.button9)
         navBarBookingsbtn.setOnClickListener{
             val intent = Intent(this, UserBookingsActivity::class.java)
+            startActivity(intent)
+        }
+
+        val navBarProfilebtn : Button = findViewById(R.id.button8)
+        navBarProfilebtn.setOnClickListener{
+            val intent = Intent(this, ProfileActivity::class.java)
             startActivity(intent)
         }
     }

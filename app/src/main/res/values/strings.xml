@@ -13,6 +13,20 @@
     <string name="doctor1_description">Anxiety, Depression, Trauma</string>
     <string name="doctor1_rating">⭐ 5.0 (32 reviews)</string>
 
+    <!-- Doctor 2 details   -->
+    <string name="doctor2_name">Dr. Damith Chandarathilake</string>
+    <string name="doctor2_description">Relationships, Self-esteem</string>
+    <string name="doctor2_rating">⭐ 4.9 (65 reviews)</string>
+
+    <!-- Doctor 3 details   -->
+    <string name="doctor3_name">Dr. Ransilu Samaraweera</string>
+    <string name="doctor3_description">PTSD, Anxiety, Mindfulness</string>
+    <string name="doctor3_rating">⭐ 4.8 (18 reviews)</string>
+
+    <!--END Psychologist page   -->
+
+
+
     <!--Book Psychologist .xml-->
     <string name="book_title">Book a psychologist</string>
     <string name="book_selectTimeSlot">Select available time slot</string>

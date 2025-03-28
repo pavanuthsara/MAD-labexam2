@@ -10,10 +10,24 @@ class DashboardActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard)
 
-        val checkButton1 : ImageView = findViewById(R.id.findPsychologists)
-        checkButton1.setOnClickListener{
-            val intent = Intent(this, CheckActivity::class.java)
+        val findpsychologistsbtn : ImageView = findViewById(R.id.findPsychologists)
+        findpsychologistsbtn.setOnClickListener{
+            val intent = Intent(this, PsychologistActivity::class.java)
             startActivity(intent)
         }
+
+        val mybookingsbtn : ImageView = findViewById(R.id.myBookings)
+        mybookingsbtn.setOnClickListener{
+            val intent = Intent(this, UserBookingsActivity::class.java)
+            startActivity(intent)
+        }
+
+        val myprofilebtn : ImageView = findViewById(R.id.myProfile)
+        myprofilebtn.setOnClickListener{
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
+
+
     }
 }
