@@ -23,7 +23,6 @@
     <string name="doctor3_name">Dr. Ransilu Samaraweera</string>
     <string name="doctor3_description">PTSD, Anxiety, Mindfulness</string>
     <string name="doctor3_rating">⭐ 4.8 (18 reviews)</string>
-
     <!--END Psychologist page   -->
 
 
@@ -97,5 +96,17 @@
     <string name="signup_noAccount">Already have an account ?</string>
     <string name="signun_btn">Sign Up</string>
     <!-- END sign un .xml -->
+
+    <!-- edit profile .xml-->
+    <string name="edit_savebtn">Save</string>
+    <string name="edit_cancelbtn">Cancel</string>
+    <!-- END edit profile .xml-->
+
+    <!-- add review .xml-->
+    <string name="review_title">Add a review</string>
+    <string name="review_write">Write your review</string>
+    <string name="review_rating">Give rating below</string>
+    <string name="review_submit">Submit review</string>
+    <!-- END add review .xml-->
 
 </resources>

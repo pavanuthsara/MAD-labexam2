@@ -31,6 +31,8 @@
         <activity android:name=".BookingSuccessActivity"/>
         <activity android:name=".SignInAcitivity"/>
         <activity android:name=".SignUpActivity"/>
+        <activity android:name=".EditProfileActivity"/>
+        <activity android:name=".AddReviewActivity"/>
     </application>
 
 </manifest>

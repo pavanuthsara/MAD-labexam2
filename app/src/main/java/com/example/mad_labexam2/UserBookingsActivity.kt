@@ -22,5 +22,11 @@ class UserBookingsActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val addReviewBtn : Button = findViewById(R.id.button2)
+        addReviewBtn.setOnClickListener{
+            val intent = Intent(this, AddReviewActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 }
