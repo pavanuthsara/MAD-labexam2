@@ -29,6 +29,8 @@
         <activity android:name=".UserBookingsActivity"/>
         <activity android:name=".ProfileActivity"/>
         <activity android:name=".BookingSuccessActivity"/>
+        <activity android:name=".SignInAcitivity"/>
+        <activity android:name=".SignUpActivity"/>
     </application>
 
 </manifest>

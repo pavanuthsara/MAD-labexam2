@@ -84,4 +84,18 @@
     <string name="profile_logout">Log out</string>
     <!-- END booking success .xml -->
 
+    <!-- sign in .xml -->
+    <string name="signin_title">Let’s Sign you in</string>
+    <string name="signin_tagline">Welcome back, You have been missed</string>
+    <string name="signin_noAccount">Don’t have an account ?</string>
+    <string name="signin_btn">Sign In</string>
+    <!-- END sign in .xml -->
+
+    <!-- sign un .xml -->
+    <string name="signup_title">Let’s Become a Mind Spring!</string>
+    <string name="signup_tagline">Hello user, you have a grateful journey</string>
+    <string name="signup_noAccount">Already have an account ?</string>
+    <string name="signun_btn">Sign Up</string>
+    <!-- END sign un .xml -->
+
 </resources>
