@@ -29,6 +29,12 @@ class ProfileActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val editProfilebtn : Button = findViewById(R.id.button14)
+        editProfilebtn.setOnClickListener{
+            val intent = Intent(this, EditProfileActivity::class.java)
+            startActivity(intent)
+        }
+
     }
 
 }
