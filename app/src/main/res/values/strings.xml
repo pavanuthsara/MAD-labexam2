@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MAD-labexam2</string>
     <string name="user_dashboard">User Dashboard</string>
+    <string name="landing_getstarted">Get Started</string>
 
     <!-- Psychologist page   -->
     <string name="psychologists">Psychologists</string>
@@ -12,5 +13,89 @@
     <string name="doctor1_name">Dr. Kalani Rathnayake</string>
     <string name="doctor1_description">Anxiety, Depression, Trauma</string>
     <string name="doctor1_rating">⭐ 5.0 (32 reviews)</string>
+
+    <!-- Doctor 2 details   -->
+    <string name="doctor2_name">Dr. Damith Chandarathilake</string>
+    <string name="doctor2_description">Relationships, Self-esteem</string>
+    <string name="doctor2_rating">⭐ 4.9 (65 reviews)</string>
+
+    <!-- Doctor 3 details   -->
+    <string name="doctor3_name">Dr. Ransilu Samaraweera</string>
+    <string name="doctor3_description">PTSD, Anxiety, Mindfulness</string>
+    <string name="doctor3_rating">⭐ 4.8 (18 reviews)</string>
+
+    <!--END Psychologist page   -->
+
+
+
+    <!--Book Psychologist .xml-->
+    <string name="book_title">Book a psychologist</string>
+    <string name="book_selectTimeSlot">Select available time slot</string>
+    <string-array name="book_timeslot">
+        <item>Select suitable date and time</item>
+        <item>27 March : 8.00AM - 9.00AM</item>
+        <item>27 March : 3.00PM - 4.00PM</item>
+        <item>29 March : 9.00AM - 10.00AM</item>
+        <item>30 March : 6.00PM - 9.00AM</item>
+    </string-array>
+    <string name="book_totalPrice">Total price : 3500 LKR</string>
+    <string name="book_paymentMethod">Select payment method</string>
+    <string-array name="book_paymentMethod">
+        <item>Select payment method</item>
+        <item>Debit card / Credit card</item>
+        <item>Google Pay</item>
+        <item>Apple Pay</item>
+    </string-array>
+    <string name="book_doctor_detials">Psychologist details</string>
+
+    <string name="book_submitbtn">Submit</string>
+    <string name="book_cancelbtn">Cancel</string>
+    <!-- END Book Psychologist .xml-->
+
+    <!--user bookings .xml-->
+    <string name="userbookings_title">Your bookings</string>
+    <string name="userbookings_current">Current bookings</string>
+    <string name="userbookings_previous">Previous bookings</string>
+
+    <string name="userbookings_b1_dname">Dr.Pavan Uthsara</string>
+    <string name="userbookings_b1_date">29th March 2025 | 8.00AM - 9.00AM</string>
+    <string name="userbookings_b1_tagline">Please entering meeting before 5 minutes.</string>
+    <string name="userbookings_b1_joinbtn">Join</string>
+
+    <string name="userbookings_b2_dname">Dr.Ransilu Samaraweera</string>
+    <string name="userbookings_b2_date">25th March 2025 | 8.00AM - 9.00AM</string>
+    <string name="userbookings_b2_tagline">Meeting ended. Put a review.</string>
+    <string name="userbookings_b2_addreviewbtn">Add review</string>
+    <!--END user bookings .xml-->
+
+    <!-- -->
+    <!-- booking success .xml -->
+    <string name="booking_success">Booking Success</string>
+    <string name="booking_success_payment">Payment was done,Thank you!</string>
+    <string name="booking_success_view">View Your Bookings</string>
+    <!-- END booking success .xml -->
+
+    <!-- booking profile .xml -->
+    <string name="profile_title">Your Profile</string>
+    <string name="profile_name">Pavan Uthsara</string>
+    <string name="profile_details">21 Yerars old : Male</string>
+    <string name="profile_memberType">Silver Member</string>
+    <string name="profile_edit">Edit Profile</string>
+    <string name="profile_logout">Log out</string>
+    <!-- END booking success .xml -->
+
+    <!-- sign in .xml -->
+    <string name="signin_title">Let’s Sign you in</string>
+    <string name="signin_tagline">Welcome back, You have been missed</string>
+    <string name="signin_noAccount">Don’t have an account ?</string>
+    <string name="signin_btn">Sign In</string>
+    <!-- END sign in .xml -->
+
+    <!-- sign un .xml -->
+    <string name="signup_title">Let’s Become a Mind Spring!</string>
+    <string name="signup_tagline">Hello user, you have a grateful journey</string>
+    <string name="signup_noAccount">Already have an account ?</string>
+    <string name="signun_btn">Sign Up</string>
+    <!-- END sign un .xml -->
 
 </resources>

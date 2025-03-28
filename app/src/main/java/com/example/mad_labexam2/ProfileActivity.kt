@@ -2,32 +2,33 @@ package com.example.mad_labexam2
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
-class DashboardActivity : AppCompatActivity() {
+class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_dashboard)
+        setContentView(R.layout.activity_profile)
 
-        val findpsychologistsbtn : ImageView = findViewById(R.id.findPsychologists)
-        findpsychologistsbtn.setOnClickListener{
+        val navBarPsycholigstsbtn : Button = findViewById(R.id.button17)
+        navBarPsycholigstsbtn.setOnClickListener{
             val intent = Intent(this, PsychologistActivity::class.java)
             startActivity(intent)
         }
 
-        val mybookingsbtn : ImageView = findViewById(R.id.myBookings)
-        mybookingsbtn.setOnClickListener{
+        val navBarBookingsbtn : Button = findViewById(R.id.button16)
+        navBarBookingsbtn.setOnClickListener{
             val intent = Intent(this, UserBookingsActivity::class.java)
             startActivity(intent)
         }
 
-        val myprofilebtn : ImageView = findViewById(R.id.myProfile)
-        myprofilebtn.setOnClickListener{
-            val intent = Intent(this, ProfileActivity::class.java)
+        val logOutBtn : Button = findViewById(R.id.button15)
+        logOutBtn.setOnClickListener{
+            val intent = Intent(this, SignInAcitivity::class.java)
             startActivity(intent)
         }
 
-
     }
+
 }

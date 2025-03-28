@@ -12,18 +12,13 @@ class MainActivity : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
 
-        val dashboardButton: Button = findViewById(R.id.btnDashboard)
-        val psychologistButton: Button = findViewById(R.id.btnPsychologist)
+        val dashboardButton: Button = findViewById(R.id.button12)
 
         dashboardButton.setOnClickListener{
-            val intent = Intent(this, DashboardActivity::class.java)
+            val intent = Intent(this, SignInAcitivity::class.java)
             startActivity(intent)
         }
 
-        psychologistButton.setOnClickListener{
-            val intent = Intent(this, PsychologistActivity::class.java)
-            startActivity(intent)
-        }
 
     }
 }

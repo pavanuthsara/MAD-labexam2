@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="32dp"
-        android:text="@string/user_dashboard"
         android:fontFamily="sans-serif"
+        android:text="@string/user_dashboard"
         android:textColor="@color/black"
         android:textSize="32dp"
         android:textStyle="bold"
@@ -32,8 +32,12 @@
         android:background="@drawable/round_image"
         android:clipToOutline="true"
         android:src="@drawable/find_psychologists"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139" />
 
     <ImageView
         android:id="@+id/myBookings"
@@ -45,10 +49,13 @@
         android:background="@drawable/round_image"
         android:clipToOutline="true"
         android:src="@drawable/my_bookings"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/findPsychologists"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.139"
         tools:srcCompat="@drawable/my_bookings" />
 
     <ImageView
@@ -56,24 +63,31 @@
         android:layout_width="450px"
         android:layout_height="450px"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="192dp"
+        android:layout_marginBottom="240dp"
         android:background="@drawable/round_image"
         android:clipToOutline="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/findPsychologists"
+        app:layout_constraintVertical_bias="0.047"
+        app:srcCompat="@drawable/my_profile"
         tools:srcCompat="@drawable/my_profile" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="298dp"
         android:layout_height="240dp"
+        android:layout_marginTop="8dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/myProfile"
-        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/dashboard_background_image" />
 
 

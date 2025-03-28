@@ -25,6 +25,12 @@
         <activity android:name=".DashboardActivity"/>
         <activity android:name=".CheckActivity"/>
         <activity android:name=".PsychologistActivity"/>
+        <activity android:name=".BookPsychologistActivity"/>
+        <activity android:name=".UserBookingsActivity"/>
+        <activity android:name=".ProfileActivity"/>
+        <activity android:name=".BookingSuccessActivity"/>
+        <activity android:name=".SignInAcitivity"/>
+        <activity android:name=".SignUpActivity"/>
     </application>
 
 </manifest>
